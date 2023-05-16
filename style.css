@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500&display=swap');
+*{
+  font-family: Lexend;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 50px;
+  align-items: center;
+}
+
+header nav{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+header nav .logo i{
+  color: green;
+}
+header nav #links{
+  display: flex;
+  gap: 3rem;
+}
+header nav #links a{
+  color: black;
+}
+header nav #links a i{
+  color: green;
+}
+header .conta i{
+  font-size: 30px;
+  color: #404040;
+}
+
+.main{
+  display: flex;
+  padding: 150px 60px;
+  justify-content: space-between;
+}
+.content .text{
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.content .text h1{
+  font-size: 64px;
+  color: #404040;
+}
+.content .text p{
+  width: 500px;
+}
+
+.content .saiba-mais{
+  padding-top: 3rem;
+}
+.content .saiba-mais a{
+  background: green;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 6px;
+  transition: .3s;
+}
+.content .saiba-mais a:hover{
+   background: #49A656;
+}
+
+/* Segunda section */
+.segunda-secao{
+  height: 100vh;
+}
+.segunda-secao .console{
+    width: 80%;
+    height: 800px;
+    background-color: #2B2B2B;
+    margin: 0 auto;
+    border-radius: 50px;
+    text-align: center;
+}
+.segunda-secao .console h1{
+  font-size: 50px;
+  padding-top: 60px;
+  color: white;
+  font-weight: 300;
+}
+.segunda-secao .console .console-img{
+    padding-top: 50px;
+    padding-left: 50px;
+}
